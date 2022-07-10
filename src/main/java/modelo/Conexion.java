@@ -16,7 +16,7 @@ public class Conexion {
 			dataSource.setDriverClassName("org.postgresql.Driver");
 			dataSource.setUsername("postgres");
 			dataSource.setPassword("admin");
-			dataSource.setUrl("jdbc:postgresql://192.168.2.174:5432/autos");
+			dataSource.setUrl("jdbc:postgresql://localhost:5432/autos");
 			dataSource.setInitialSize(20); //El n�mero inicial de conexiones que se crean cuando se inicia el grupo.
 			dataSource.setMaxTotal(-10); //El n�mero m�ximo de conexiones activas que se pueden asignar desde este grupo al mismo tiempo,
 											//o negativo para ning�n l�mite.
