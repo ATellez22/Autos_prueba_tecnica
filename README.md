@@ -1,6 +1,10 @@
 # Autos_prueba_tecnica
 Selección de vehículos y características
 
+* Proyecto web hecho en Maven con Java y Javascript puro. Sin Framework.
+* Uso de CSS y otros frameworks de diseño como Pure. 
+* Base de datos Postgres.
+
 * Se debe instalar Apache Tomcat para ejecutar el archivo WAR de Java. De preferencia el apache 9:
     - https://tomcat.apache.org/download-90.cgi#9.0.64
     - Una vez instalado, seleccionar la opción 'Manager App'.
